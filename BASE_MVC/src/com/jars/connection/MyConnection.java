@@ -33,7 +33,7 @@ public class MyConnection {
 		   try 
 		   {
 			   	Class.forName("com.mysql.jdbc.Driver");
-			   	con =  (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3305/avenjars","root","mysql");
+			   	con =  (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/avenjars","root","root");
 		   } 
 		   catch (Exception e) 
 		   {
